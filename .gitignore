@@ -21,3 +21,4 @@
 
 # Ignore local environment
 .env
+.travis.yml
