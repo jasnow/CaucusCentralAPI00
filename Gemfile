@@ -1,12 +1,17 @@
 source 'https://rubygems.org'
-ruby '2.2.3'
+ruby '2.3.0'
 
-gem 'rails', '4.2.4'
+gem 'rails', '4.2.5.1'
 
 gem 'aasm'
 gem 'bcrypt'
 gem 'cancancan'
 gem 'figaro'
+
+gem 'active_model_serializers'
+gem 'devise'
+gem 'devise_invitable'
+
 gem 'foreigner'
 gem 'jbuilder'
 gem 'pg'
