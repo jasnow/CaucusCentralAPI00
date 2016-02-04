@@ -1,2 +1,3 @@
 --color
 --require spec_helper
+#FIXME: ONE TEST FAILS SOMETIMES WITH THIS: --order rand
