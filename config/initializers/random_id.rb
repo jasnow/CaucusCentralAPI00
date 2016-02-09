@@ -8,7 +8,7 @@ end
 
 if ca.const_defined? :AbstractMysqlAdapter
   ca::AbstractMysqlAdapter::NATIVE_DATABASE_TYPES[:primary_key] =
-        'BIGINT UNSIGNED NULL PRIMARY KEY'
+    'BIGINT UNSIGNED NULL PRIMARY KEY'
 end
 
 module ActiveRecord
