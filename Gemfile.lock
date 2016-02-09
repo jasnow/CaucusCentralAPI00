@@ -113,7 +113,7 @@ GEM
       tilt
     highline (1.7.8)
     i18n (0.7.0)
-    jbuilder (2.4.0)
+    jbuilder (2.4.1)
       activesupport (>= 3.0.0, < 5.1)
       multi_json (~> 1.2)
     json (1.8.3)
@@ -185,7 +185,7 @@ GEM
     rainbow (2.1.0)
     rake (10.5.0)
     rb-fsevent (0.9.7)
-    rb-inotify (0.9.6)
+    rb-inotify (0.9.7)
       ffi (>= 0.5.0)
     responders (2.1.1)
       railties (>= 4.2.0, < 5.1)
