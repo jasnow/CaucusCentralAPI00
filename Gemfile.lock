@@ -43,7 +43,7 @@ GEM
     bcrypt (3.1.11)
     builder (3.2.2)
     concurrent-ruby (1.0.1)
-    devise (3.5.6)
+    devise (3.5.7)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
@@ -152,7 +152,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers
   awesome_print
-  devise
+  devise (= 3.5.7)
   devise_invitable
   fabrication
   foreigner
