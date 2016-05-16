@@ -55,7 +55,7 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     erubis (2.7.0)
-    fabrication (2.15.1)
+    fabrication (2.15.2)
     foreigner (1.7.4)
       activerecord (>= 3.0.0)
     globalid (0.3.6)
