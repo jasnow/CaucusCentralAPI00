@@ -25,9 +25,7 @@ RSpec.describe SessionsController, type: :controller do
 
         expect(response).to be_successful
 
-        body = JSON.parse(response.body)
-
-        expect(body['auth_token']).to eq("#{user.auth_token}")
+        expect(response.body).to include(user.auth_token)
       end
 
       it 'should fail without a valid password' do
