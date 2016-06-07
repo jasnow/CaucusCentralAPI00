@@ -41,7 +41,7 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
-    awesome_print (1.6.1)
+    awesome_print (1.7.0)
     bcrypt (3.1.11)
     builder (3.2.2)
     concurrent-ruby (1.0.2)
@@ -71,12 +71,14 @@ GEM
     mime-types (3.1)
       mime-types-data (~> 3.2015)
     mime-types-data (3.2016.0521)
-    mini_portile2 (2.0.0)
+    mini_portile2 (2.1.0)
     minitest (5.9.0)
-    nokogiri (1.6.7.2)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.6.8)
+      mini_portile2 (~> 2.1.0)
+      pkg-config (~> 1.1.7)
     orm_adapter (0.5.0)
     pg (0.18.4)
+    pkg-config (1.1.7)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -165,4 +167,4 @@ DEPENDENCIES
   spring
 
 BUNDLED WITH
-   1.12.3
+   1.12.5
