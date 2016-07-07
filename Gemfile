@@ -14,5 +14,5 @@ gem 'spring', :group => :development
 group :development, :test do
   gem 'awesome_print'
   gem 'fabrication'
-  gem 'rspec-rails', '~> 3.0'
+  gem 'rspec-rails'
 end

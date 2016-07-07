@@ -165,7 +165,7 @@ DEPENDENCIES
   pg
   rails (= 4.2.7.rc1)
   rails-api
-  rspec-rails (~> 3.0)
+  rspec-rails
   simplecov
   spring
 
