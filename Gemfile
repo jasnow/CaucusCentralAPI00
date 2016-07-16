@@ -1,13 +1,12 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.2.7'
+gem 'rails', '5.0.0'
 
 gem 'active_model_serializers'
 gem 'devise'
 gem 'devise_invitable'
 gem 'foreigner'
 gem 'pg'
-gem 'rails-api'
 gem 'simplecov', require: false
 gem 'spring', :group => :development
 

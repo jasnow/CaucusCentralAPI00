@@ -19,8 +19,8 @@ RSpec.describe SessionsController, type: :controller do
       it 'should return an auth token given a valid password' do
         post(
           :create,
-          format: :json,
-          user_login: { email: user.email, password: user.password }
+          params: { format: :json,
+            user_login: { email: user.email, password: user.password } }
         )
 
         expect(response).to be_successful
@@ -31,8 +31,8 @@ RSpec.describe SessionsController, type: :controller do
       it 'should fail without a valid password' do
         post(
           :create,
-          format: :json,
-          user_login: { email: user.email, password: 'verywrongpassword' }
+          params: { format: :json,
+            user_login: { email: user.email, password: 'verywrongpassword' } }
         )
 
         expect(response).to_not be_successful
@@ -46,8 +46,9 @@ RSpec.describe SessionsController, type: :controller do
       it 'should fail if the request is malformed' do
         post(
           :create,
-          format: :json,
-          blahblah: { someone: 'thisiswhoiam', letmein: 'lalallaa' }
+          params: { format: :json,
+            blahblah: { someone: 'thisiswhoiam', letmein: 'lalallaa' }
+          }
         )
 
         expect(response).to_not be_successful
@@ -61,7 +62,7 @@ RSpec.describe SessionsController, type: :controller do
 
     describe '#destroy' do
       it 'should be successful' do
-        delete(:destroy, format: :json)
+        delete :destroy, params: { format: :json }
 
         expect(response).to be_successful
       end
