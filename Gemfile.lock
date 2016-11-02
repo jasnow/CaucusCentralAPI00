@@ -60,17 +60,17 @@ GEM
     diff-lcs (1.2.5)
     docile (1.1.5)
     erubis (2.7.0)
-    fabrication (2.15.2)
+    fabrication (2.16.0)
     foreigner (1.7.4)
       activerecord (>= 3.0.0)
     globalid (0.3.7)
       activesupport (>= 4.1.0)
     i18n (0.7.0)
     json (2.0.2)
-    jsonapi (0.1.1.beta5)
-      jsonapi-parser (= 0.1.1.beta2)
+    jsonapi (0.1.1.beta6)
+      jsonapi-parser (= 0.1.1.beta3)
       jsonapi-renderer (= 0.1.1.beta1)
-    jsonapi-parser (0.1.1.beta2)
+    jsonapi-parser (0.1.1.beta3)
     jsonapi-renderer (0.1.1.beta1)
     loofah (2.0.3)
       nokogiri (>= 1.5.9)
@@ -174,4 +174,4 @@ DEPENDENCIES
   spring
 
 BUNDLED WITH
-   1.13.5
+   1.13.6
