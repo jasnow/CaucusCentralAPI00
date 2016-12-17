@@ -47,7 +47,7 @@ GEM
     awesome_print (1.7.0)
     bcrypt (3.1.11)
     builder (3.2.2)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.3)
     devise (4.2.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
