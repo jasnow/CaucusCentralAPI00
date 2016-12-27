@@ -10,38 +10,10 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160106211546) do
+ActiveRecord::Schema.define(version: 20151205055723) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "invitations", id: :bigserial, force: :cascade do |t|
-    t.integer  "sender_id"
-    t.string   "email"
-    t.string   "token"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-    t.integer  "privilege"
-    t.integer  "precinct_id"
-  end
-
-  create_table "precincts", id: :bigserial, force: :cascade do |t|
-    t.string   "name"
-    t.string   "county"
-    t.integer  "total_attendees", default: 0
-    t.datetime "created_at",                  null: false
-    t.datetime "updated_at",                  null: false
-    t.text     "delegate_counts"
-    t.integer  "total_delegates", default: 0
-    t.string   "aasm_state"
-  end
-
-  create_table "tokens", id: :bigserial, force: :cascade do |t|
-    t.integer  "user_id"
-    t.string   "token"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
   create_table "users", force: :cascade do |t|
     t.string   "email",                  default: "", null: false
@@ -65,8 +37,8 @@ ActiveRecord::Schema.define(version: 20160106211546) do
     t.datetime "invitation_sent_at"
     t.datetime "invitation_accepted_at"
     t.integer  "invitation_limit"
-    t.integer  "invited_by_id"
     t.string   "invited_by_type"
+    t.integer  "invited_by_id"
     t.integer  "invitations_count",      default: 0
     t.string   "auth_token",                          null: false
     t.integer  "privilege",              default: 0,  null: false
