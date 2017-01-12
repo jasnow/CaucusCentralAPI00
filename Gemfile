@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 
 gem 'rails', '5.0.1'
-gem 'json', '2.0.2' # LOCKED DOWN
 
 gem 'active_model_serializers'
 gem 'devise'
