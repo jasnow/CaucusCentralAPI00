@@ -140,7 +140,7 @@ GEM
       json (>= 1.8, < 3)
       simplecov-html (~> 0.10.0)
     simplecov-html (0.10.0)
-    spring (2.0.0)
+    spring (2.0.1)
       activesupport (>= 4.2)
     sprockets (3.7.1)
       concurrent-ruby (~> 1.0)
@@ -176,4 +176,4 @@ DEPENDENCIES
   spring
 
 BUNDLED WITH
-   1.13.7
+   1.14.0
