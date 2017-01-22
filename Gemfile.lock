@@ -155,7 +155,7 @@ GEM
       thread_safe (~> 0.1)
     warden (1.2.6)
       rack (>= 1.0)
-    websocket-driver (0.6.4)
+    websocket-driver (0.6.5)
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.2)
 
@@ -176,4 +176,4 @@ DEPENDENCIES
   spring
 
 BUNDLED WITH
-   1.14.0
+   1.14.1
