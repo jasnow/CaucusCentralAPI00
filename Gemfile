@@ -1,9 +1,9 @@
 source 'https://rubygems.org'
 
-gem 'rails', '5.1.0.rc2'
+gem 'rails', '5.1.0'
 
 gem 'active_model_serializers'
-gem 'devise'
+gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN
 gem 'devise_invitable'
 gem 'pg'
 gem 'simplecov', require: false
