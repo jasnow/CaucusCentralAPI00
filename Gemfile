@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '5.1.1'
 
 gem 'active_model_serializers'
-gem 'devise', git: 'https://github.com/plataformatec/devise' # LOCKED DOWN
+gem 'devise'
 gem 'devise_invitable'
 gem 'pg'
 gem 'simplecov', require: false
