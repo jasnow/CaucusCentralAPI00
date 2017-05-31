@@ -65,7 +65,7 @@ GEM
     fabrication (2.16.1)
     globalid (0.4.0)
       activesupport (>= 4.2.0)
-    i18n (0.8.1)
+    i18n (0.8.4)
     json (2.1.0)
     jsonapi-renderer (0.1.2)
     loofah (2.0.3)
