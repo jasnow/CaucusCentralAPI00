@@ -50,7 +50,7 @@ GEM
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.0.5)
-    crass (1.0.2)
+    crass (1.0.3)
     devise (4.3.0)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
