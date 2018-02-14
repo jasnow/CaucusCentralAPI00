@@ -70,7 +70,7 @@ GEM
     fabrication (2.20.1)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    i18n (0.9.4)
+    i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     json (2.1.0)
     jsonapi-renderer (0.2.0)
