@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '6.0.0.beta1'
+gem 'rails', '6.0.0.beta3'
 
 gem 'active_model_serializers'
 gem 'devise'
