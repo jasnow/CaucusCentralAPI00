@@ -26,5 +26,6 @@ module CaucusCentralAPI
       g.assets = false
       g.helper = false
     end
+    config.action_dispatch.return_only_media_type_on_content_type = false
   end
 end
