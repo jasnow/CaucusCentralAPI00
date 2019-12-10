@@ -63,7 +63,7 @@ GEM
       zeitwerk (~> 2.2)
     awesome_print (1.8.0)
     bcrypt (3.1.13)
-    builder (3.2.3)
+    builder (3.2.4)
     case_transform (0.2)
       activesupport
     concurrent-ruby (1.1.5)
