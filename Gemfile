@@ -12,5 +12,5 @@ gem 'spring', :group => :development
 group :development, :test do
   gem 'awesome_print'
   gem 'fabrication'
-  gem 'rspec-rails', '4.0.0.beta4' # 4/26/2019: LOCKED DOWN
+  gem 'rspec-rails'
 end
