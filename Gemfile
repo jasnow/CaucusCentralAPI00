@@ -10,6 +10,7 @@ gem 'simplecov', require: false
 gem 'spring', :group => :development
 
 group :development, :test do
+  gem 'sqlite3'
   gem 'awesome_print'
   gem 'fabrication'
   gem 'rspec-rails'
