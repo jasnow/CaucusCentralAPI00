@@ -5,7 +5,7 @@ gem 'rails', '6.0.3.3'
 gem 'active_model_serializers'
 gem 'devise'
 gem 'devise_invitable'
-gem 'pg'
+#HID: gem 'pg' # HID on 10/3/2020
 gem 'simplecov', require: false
 gem 'spring', :group => :development
 
