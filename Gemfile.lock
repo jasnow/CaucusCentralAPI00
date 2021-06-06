@@ -70,7 +70,7 @@ GEM
     builder (3.2.4)
     case_transform (0.2)
       activesupport
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     crass (1.0.6)
     devise (4.8.0)
       bcrypt (~> 3.0)
