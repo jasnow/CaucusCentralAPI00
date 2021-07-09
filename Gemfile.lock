@@ -135,7 +135,7 @@ GEM
       method_source
       rake (>= 0.13)
       thor (~> 1.0)
-    rake (13.0.4)
+    rake (13.0.6)
     responders (3.0.1)
       actionpack (>= 5.0)
       railties (>= 5.0)
@@ -200,4 +200,4 @@ DEPENDENCIES
   thread_safe
 
 BUNDLED WITH
-   2.2.21
+   2.2.22
